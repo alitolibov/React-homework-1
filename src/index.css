@@ -8,10 +8,16 @@
     padding: 0;
     box-sizing: border-box;
 }
-.bg{
+.back{
     background-image: url('../public/img/bg.png');
 }
 .beans{
     background-image: url(../public/img/coffe\ beans.png);
     background-repeat: no-repeat;
+}
+.drink{
+    background-image: url('../public/img/drink\ coffe.png');
+}
+.coffeeLine{
+    background-image: url('../public/img/coffe\ line.png');
 }
