@@ -29,7 +29,7 @@ function App() {
         <div className="flex flex-col gap-[23px]">
             <p className="font-['Merienda'] text-[24px] text-center">About our beans</p>
             <div className="coffeeLine w-[200px] h-[29.3px] m-auto"></div>
-            <p className="text-center font-['Merienda'] text-[14px] w-[350px]">Extremity sweetness difficult behaviour he of. On
+            <p className="text-center font-['Merienda'] text-[14px] w-[350px]">Extremit sweetness difficult behaviour he of. On
                 <br/>
                 disposal of as landlord horrible.<br/>
                 <br/>
