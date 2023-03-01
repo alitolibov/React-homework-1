@@ -10,7 +10,9 @@ function App() {
         'Brazil',
         'Brazil'
     ]
-    return (<> < div className = "back w-full h-[260px] relative" > <div className="w-[1150px] pt-[25px] flex items-center gap-[40px] m-auto">
+    return (
+    <> < div className = "back w-full h-[260px] relative" >
+         <div className="w-[1150px] pt-[25px] flex items-center gap-[40px] m-auto">
         <div className="flex items-center cursor-pointer">
             <div className="beans bg-contain w-[35px] h-[35px]"></div>
             <p className="font-['Merienda'] text-[#fff] text-[12px]">Coffee house</p>
@@ -76,6 +78,15 @@ function App() {
         {arr.map((item, key) => <Children item={item} key={key}/>)}
 
     </div>
+    <footer className="w-fit pt-[25px] flex items-center gap-[40px] m-auto mb-[31px]">
+        <div className="flex items-center cursor-pointer">
+            <div className="beans bg-contain w-[35px] h-[35px] invert"></div>
+            <p className="font-['Merienda'] text-[12px]">Coffee house</p>
+        </div>
+        <p className="font-['Merienda'] cursor-pointer text-[12px]">Our coffee</p>
+        <p className="font-['Merienda'] cursor-pointer text-[12px]">For your pleasure</p>
+    </footer>
+    <div className="coffeeLine w-[200px] h-[29.3px] m-auto mb-[21px]"></div>
 </div> 
 </>
     );
