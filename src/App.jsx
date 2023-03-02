@@ -11,7 +11,7 @@ function App() {
         'Brazil'
     ]
     return (
-    <> < div className = "back w-full h-[260px] relative" >
+    <> < div className = "back w-full h-[260px] relative bg-no-repeat" >
          <div className="w-[1150px] pt-[25px] flex items-center gap-[40px] m-auto">
         <div className="flex items-center cursor-pointer">
             <div className="beans bg-contain w-[35px] h-[35px]"></div>
