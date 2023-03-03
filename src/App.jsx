@@ -17,7 +17,7 @@ function App() {
             <div className="beans bg-contain w-[35px] h-[35px]"></div>
             <p className="font-['Merienda'] text-[#fff] text-[12px]">Coffee house</p>
         </div>
-        <p className="font-['Merienda'] text-[#fff] cursor-pointer text-[12px]">Our coffee</p>
+        <p className="font-['Merienda'] text-[#fff] cursor-pointer text-[12px]">Our coffe</p>
         <p className="font-['Merienda'] text-[#fff] cursor-pointer text-[12px]">For your pleasure</p>
     </div>
     <p
